@@ -1,0 +1,15 @@
+I used django - graphene to solve the problem.
+
+I restored the postgresql dump and then used inspectdb command to configure database in my django project.
+
+Defined the queries in scemas.py file in app
+
+There are three types of queries:
+1. all branches, all banks --> return a list of all corresponding objects.
+2. branches given ifsc or branch , bank given id or name ---> returns a unique corresponding object.
+3. branches given city, state, district, bank_Name, bank_Id --> return a list of all corresponding objects.
+
+
+Time taken: 
+I got the assignment 3 days ago, but couldn't find time to work on it. So, I worked on it for almost one and a half days.
+
